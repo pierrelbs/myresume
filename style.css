@@ -1,0 +1,410 @@
+body {
+    margin: auto;
+    background-color: white;
+}
+
+.up-btn {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.arrow {
+    width: 70px;
+}
+
+#banner {
+    padding-top: 30px;
+    background-color: #05204A;
+    padding-bottom: 30px;
+    text-align: right;
+}
+
+#banner h1 {
+    text-align: left;
+    padding-left: 100px;
+}
+
+#banner h2 {
+    text-align: left;
+    padding-left: 100px;
+}
+
+#banner img {
+    width: 170px;
+    padding-right: 100px;
+    user-select: none;
+    animation: float 5s ease-in-out infinite;
+}
+
+.profile {
+    animation-delay: 1s;
+}
+
+#presentation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#presentation h1 {
+    animation: revealtext 1s forwards;
+    opacity: 0;
+}
+
+#presentation h2 {
+    animation: revealtext 1s forwards;
+    opacity: 0;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.button-blue {
+    padding: 15px 20px;
+    border-radius: 80px;
+    transition: 0.2s;
+    margin-right: 5px;
+    background-color: #3278CA;
+    display: inline-block;
+    color: white;
+}
+
+.button-blue:hover {
+    background-color: #204d80;
+}
+
+#experiences {
+    margin: 40px;
+    background-color: white;
+    padding-bottom: 10px;
+    background-image: url(images/A.mp4)
+}
+
+#experiences h2 {
+    color: black;
+    font-family: Chivo;
+}
+
+.button-white {
+    padding: 15px 20px;
+    border-radius: 80px;
+    transition: 0.2s;
+    margin: 5px;
+    background-color: white;
+    display: inline-block;
+    color: black;
+}
+
+.button-white:hover {
+    background-color: #a5a5a5;
+}
+
+#banner a {
+    font-family: Chivo;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: Helvetica;
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: Helvetica;
+    font-size: 25px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.card-white {
+    background: white;
+    box-shadow: 0 0 16px rgba(0 0 0 / 10%);
+    border-radius: 6px;
+    margin: auto;
+    padding: 20px;
+    height: auto;
+}
+
+.card-white h3 {
+    text-align: center;
+    color: black;
+    font-family: Chivo;
+}
+
+.card-white p {
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.card-white img {
+    width: 300px;
+}
+
+.experiences-logo {
+    text-align: center;
+}
+
+#education {
+    padding: 20px;
+    background-color: #05204A;
+}
+
+#education h2 {
+    color: white;
+    font-family: Chivo;
+}
+
+.diploma-blue p {
+    color: white;
+    font-family: Chivo;
+    text-align: center;
+}
+
+.diploma-blue {
+    text-align: center;
+    margin: 50px;
+}
+
+
+.diploma-title {
+    font-size: 21px;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+}
+
+footer a {
+    font-family: Chivo;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#diplomas img {
+    width: 100px;
+    user-select: none;
+}
+
+#skills {
+    padding: 20px 0;
+    margin-bottom: 10px;
+}
+
+#skills h2 {
+    font-family: Chivo;
+    color: black;
+}
+
+#skills img {
+    width: 120px;
+}
+
+#languages {
+    background-color: #05204A;
+    padding: 20px;
+}
+
+#languages h2 {
+    font-family: Chivo;
+    color: white;
+}
+
+#languages h3 {
+    font-family: Chivo;
+}
+
+.languages-lign {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-blue {
+    background: white;
+    box-shadow: 0 0 16px rgba(0 0 0 / 10%);
+    border-radius: 130px;
+    padding: 40px;
+    height: 20px;
+    margin: 25px;
+    width: 160px;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    line-height: 0px;
+}
+
+.card-blue h3 {
+    font-size: 21px;
+}
+
+.card-blue p {
+    color: black;
+    font-family: Chivo;
+    font-size: 18px;
+    color: #05204A;
+}
+
+.card-blue img {
+    width: 150px;
+    user-select: none;
+}
+
+.skills-line {
+    display: grid;
+    grid-template-columns: repeat(5, 120px);
+    padding-top: 10px;
+    grid-column-gap: 3px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    user-select: none;
+}
+
+.slills-line img {
+    padding: 20px;
+}
+
+.skill-image {
+    transition: 0.2s;
+}
+
+.skill-image:hover {
+    transform: scale(1.15);
+}
+
+/*media*/
+@media (max-width: 800px) {
+    .buttons {
+        white-space: pre-line;
+    }
+}
+
+@media (max-width: 1300px) {
+	.cards {
+        grid-template-columns: 1fr;
+	}
+}
+
+@media (max-width: 1300px) {
+	#experiences {
+        margin: auto;
+	}
+}
+
+@media (max-width: 1300px) {
+	.card-white {
+        width: 500px;
+	}
+}
+
+@media (max-width: 800px) {
+	.card-white {
+        width: 300px;
+	}
+}
+
+@media (max-width: 1300px) {
+    #banner {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1300px) {
+    #presentation {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1300px) {
+    #presentation h1 {
+        text-align: center;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 1300px) {
+    #presentation h2 {
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 1300px) {
+    #presentation img {
+        padding-right: 0px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    #presentation img {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 1300px) {
+    #experiences h2 {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .skills-line {
+        display: grid;
+        grid-template-columns: 120px 120px;
+        justify-content: center;
+        grid-row-gap: 3px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .languages-lign {
+        display: grid;
+    }
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes revealtext {
+    from{
+        transform: translateY(-20px);
+    }
+    to{
+        opacity: 1;
+    }
+}
